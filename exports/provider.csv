@@ -1,0 +1,202 @@
+provider_id,department_id,provider_role,employment_status,fte,weekly_capacity_hours,years_in_network,synthetic_record
+R000001,D00001,Physician,Contract,0.8,30.0,4,1
+R000002,D00001,Nurse Practitioner,Permanent,0.6,22.5,14,1
+R000003,D00001,Registered Nurse,Permanent,1.0,37.5,8,1
+R000004,D00001,Physician,Contract,0.5,18.8,1,1
+R000005,D00001,Nurse Practitioner,Permanent,0.5,18.8,8,1
+R000006,D00002,Technologist,Permanent,1.0,37.5,5,1
+R000007,D00002,Sonographer,Contract,1.0,37.5,3,1
+R000008,D00002,Registered Nurse,Permanent,0.5,18.8,13,1
+R000009,D00002,Technologist,Permanent,1.0,37.5,7,1
+R000010,D00003,Physiotherapist,Permanent,0.5,18.8,10,1
+R000011,D00003,Occupational Therapist,Permanent,1.0,37.5,1,1
+R000012,D00003,Rehabilitation Assistant,Permanent,1.0,37.5,0,1
+R000013,D00004,Specialist,Permanent,0.6,22.5,5,1
+R000014,D00004,Registered Nurse,Permanent,1.0,37.5,1,1
+R000015,D00004,Clinic Coordinator,Contract,1.0,37.5,3,1
+R000016,D00005,Proceduralist,Permanent,1.0,37.5,10,1
+R000017,D00005,Registered Nurse,Permanent,1.0,37.5,10,1
+R000018,D00005,Service Technician,Permanent,0.5,18.8,17,1
+R000019,D00005,Proceduralist,Permanent,0.8,30.0,14,1
+R000020,D00006,Physician,Permanent,0.6,22.5,8,1
+R000021,D00006,Nurse Practitioner,Permanent,0.8,30.0,16,1
+R000022,D00006,Registered Nurse,Permanent,1.0,37.5,8,1
+R000023,D00006,Physician,Permanent,1.0,37.5,5,1
+R000024,D00006,Nurse Practitioner,Permanent,1.0,37.5,7,1
+R000025,D00007,Technologist,Contract,0.8,30.0,14,1
+R000026,D00007,Sonographer,Permanent,1.0,37.5,2,1
+R000027,D00007,Registered Nurse,Permanent,0.6,22.5,1,1
+R000028,D00007,Technologist,Permanent,0.5,18.8,5,1
+R000029,D00008,Physiotherapist,Permanent,1.0,37.5,13,1
+R000030,D00008,Occupational Therapist,Contract,0.6,22.5,1,1
+R000031,D00008,Rehabilitation Assistant,Permanent,1.0,37.5,4,1
+R000032,D00008,Physiotherapist,Permanent,0.5,18.8,9,1
+R000033,D00009,Specialist,Permanent,0.6,22.5,14,1
+R000034,D00009,Registered Nurse,Contract,1.0,37.5,5,1
+R000035,D00009,Clinic Coordinator,Permanent,1.0,37.5,5,1
+R000036,D00009,Specialist,Contract,1.0,37.5,4,1
+R000037,D00010,Proceduralist,Permanent,0.6,22.5,2,1
+R000038,D00010,Registered Nurse,Contract,0.6,22.5,7,1
+R000039,D00011,Physician,Permanent,0.5,18.8,16,1
+R000040,D00011,Nurse Practitioner,Contract,1.0,37.5,16,1
+R000041,D00011,Registered Nurse,Permanent,0.5,18.8,9,1
+R000042,D00011,Physician,Permanent,0.5,18.8,13,1
+R000043,D00012,Technologist,Permanent,0.8,30.0,6,1
+R000044,D00012,Sonographer,Permanent,1.0,37.5,13,1
+R000045,D00013,Physiotherapist,Permanent,0.5,18.8,16,1
+R000046,D00013,Occupational Therapist,Permanent,0.5,18.8,2,1
+R000047,D00013,Rehabilitation Assistant,Permanent,1.0,37.5,2,1
+R000048,D00013,Physiotherapist,Contract,0.8,30.0,10,1
+R000049,D00014,Specialist,Permanent,0.5,18.8,3,1
+R000050,D00014,Registered Nurse,Contract,1.0,37.5,13,1
+R000051,D00014,Clinic Coordinator,Permanent,0.8,30.0,9,1
+R000052,D00014,Specialist,Permanent,1.0,37.5,0,1
+R000053,D00015,Proceduralist,Permanent,0.6,22.5,2,1
+R000054,D00015,Registered Nurse,Permanent,1.0,37.5,2,1
+R000055,D00015,Service Technician,Permanent,1.0,37.5,12,1
+R000056,D00015,Proceduralist,Permanent,0.8,30.0,3,1
+R000057,D00016,Physician,Permanent,0.5,18.8,12,1
+R000058,D00016,Nurse Practitioner,Permanent,1.0,37.5,2,1
+R000059,D00016,Registered Nurse,Permanent,1.0,37.5,16,1
+R000060,D00016,Physician,Permanent,1.0,37.5,5,1
+R000061,D00017,Technologist,Contract,1.0,37.5,11,1
+R000062,D00017,Sonographer,Contract,1.0,37.5,5,1
+R000063,D00017,Registered Nurse,Permanent,0.8,30.0,0,1
+R000064,D00018,Physiotherapist,Permanent,0.5,18.8,11,1
+R000065,D00018,Occupational Therapist,Permanent,1.0,37.5,2,1
+R000066,D00018,Rehabilitation Assistant,Permanent,0.5,18.8,17,1
+R000067,D00019,Specialist,Permanent,0.6,22.5,16,1
+R000068,D00019,Registered Nurse,Permanent,0.8,30.0,8,1
+R000069,D00019,Clinic Coordinator,Permanent,1.0,37.5,0,1
+R000070,D00020,Proceduralist,Permanent,0.6,22.5,14,1
+R000071,D00020,Registered Nurse,Permanent,0.8,30.0,4,1
+R000072,D00020,Service Technician,Contract,1.0,37.5,10,1
+R000073,D00021,Physician,Permanent,1.0,37.5,10,1
+R000074,D00021,Nurse Practitioner,Permanent,0.5,18.8,6,1
+R000075,D00021,Registered Nurse,Contract,0.5,18.8,11,1
+R000076,D00021,Physician,Permanent,0.6,22.5,8,1
+R000077,D00021,Nurse Practitioner,Permanent,0.6,22.5,4,1
+R000078,D00022,Technologist,Permanent,1.0,37.5,14,1
+R000079,D00022,Sonographer,Permanent,1.0,37.5,1,1
+R000080,D00022,Registered Nurse,Permanent,0.8,30.0,2,1
+R000081,D00023,Physiotherapist,Permanent,0.6,22.5,5,1
+R000082,D00023,Occupational Therapist,Permanent,1.0,37.5,16,1
+R000083,D00023,Rehabilitation Assistant,Permanent,0.5,18.8,5,1
+R000084,D00024,Specialist,Permanent,0.8,30.0,2,1
+R000085,D00024,Registered Nurse,Permanent,1.0,37.5,0,1
+R000086,D00024,Clinic Coordinator,Permanent,1.0,37.5,0,1
+R000087,D00025,Proceduralist,Permanent,1.0,37.5,12,1
+R000088,D00025,Registered Nurse,Permanent,1.0,37.5,5,1
+R000089,D00026,Physician,Contract,1.0,37.5,15,1
+R000090,D00026,Nurse Practitioner,Permanent,1.0,37.5,0,1
+R000091,D00026,Registered Nurse,Permanent,1.0,37.5,4,1
+R000092,D00027,Technologist,Permanent,1.0,37.5,10,1
+R000093,D00027,Sonographer,Permanent,0.6,22.5,0,1
+R000094,D00027,Registered Nurse,Permanent,1.0,37.5,9,1
+R000095,D00027,Technologist,Permanent,0.5,18.8,15,1
+R000096,D00028,Physiotherapist,Permanent,0.8,30.0,16,1
+R000097,D00028,Occupational Therapist,Contract,1.0,37.5,15,1
+R000098,D00028,Rehabilitation Assistant,Permanent,0.6,22.5,17,1
+R000099,D00028,Physiotherapist,Permanent,1.0,37.5,14,1
+R000100,D00029,Specialist,Permanent,1.0,37.5,14,1
+R000101,D00029,Registered Nurse,Permanent,1.0,37.5,9,1
+R000102,D00029,Clinic Coordinator,Permanent,1.0,37.5,15,1
+R000103,D00030,Proceduralist,Permanent,1.0,37.5,6,1
+R000104,D00030,Registered Nurse,Permanent,0.6,22.5,4,1
+R000105,D00030,Service Technician,Permanent,0.8,30.0,8,1
+R000106,D00031,Physician,Permanent,1.0,37.5,4,1
+R000107,D00031,Nurse Practitioner,Permanent,1.0,37.5,6,1
+R000108,D00031,Registered Nurse,Permanent,0.8,30.0,6,1
+R000109,D00031,Physician,Contract,0.6,22.5,5,1
+R000110,D00032,Technologist,Permanent,1.0,37.5,16,1
+R000111,D00032,Sonographer,Permanent,1.0,37.5,5,1
+R000112,D00033,Physiotherapist,Permanent,1.0,37.5,15,1
+R000113,D00033,Occupational Therapist,Permanent,0.6,22.5,14,1
+R000114,D00033,Rehabilitation Assistant,Permanent,1.0,37.5,11,1
+R000115,D00034,Specialist,Permanent,0.6,22.5,13,1
+R000116,D00034,Registered Nurse,Contract,1.0,37.5,12,1
+R000117,D00034,Clinic Coordinator,Permanent,1.0,37.5,2,1
+R000118,D00035,Proceduralist,Permanent,1.0,37.5,1,1
+R000119,D00035,Registered Nurse,Contract,1.0,37.5,1,1
+R000120,D00036,Physician,Contract,1.0,37.5,2,1
+R000121,D00036,Nurse Practitioner,Permanent,0.6,22.5,14,1
+R000122,D00036,Registered Nurse,Permanent,0.8,30.0,14,1
+R000123,D00036,Physician,Permanent,1.0,37.5,17,1
+R000124,D00036,Nurse Practitioner,Permanent,1.0,37.5,10,1
+R000125,D00037,Technologist,Permanent,1.0,37.5,11,1
+R000126,D00037,Sonographer,Permanent,0.5,18.8,10,1
+R000127,D00038,Physiotherapist,Permanent,0.8,30.0,8,1
+R000128,D00038,Occupational Therapist,Permanent,1.0,37.5,13,1
+R000129,D00038,Rehabilitation Assistant,Permanent,1.0,37.5,8,1
+R000130,D00039,Specialist,Permanent,0.5,18.8,16,1
+R000131,D00039,Registered Nurse,Permanent,1.0,37.5,2,1
+R000132,D00039,Clinic Coordinator,Permanent,0.8,30.0,11,1
+R000133,D00040,Proceduralist,Permanent,1.0,37.5,13,1
+R000134,D00040,Registered Nurse,Contract,1.0,37.5,6,1
+R000135,D00041,Physician,Permanent,1.0,37.5,13,1
+R000136,D00041,Nurse Practitioner,Permanent,1.0,37.5,6,1
+R000137,D00041,Registered Nurse,Permanent,0.6,22.5,2,1
+R000138,D00041,Physician,Permanent,0.5,18.8,16,1
+R000139,D00041,Nurse Practitioner,Permanent,1.0,37.5,6,1
+R000140,D00042,Technologist,Contract,0.6,22.5,9,1
+R000141,D00042,Sonographer,Permanent,0.8,30.0,14,1
+R000142,D00042,Registered Nurse,Contract,0.5,18.8,6,1
+R000143,D00043,Physiotherapist,Contract,0.5,18.8,12,1
+R000144,D00043,Occupational Therapist,Contract,0.8,30.0,2,1
+R000145,D00043,Rehabilitation Assistant,Permanent,1.0,37.5,11,1
+R000146,D00043,Physiotherapist,Permanent,0.8,30.0,10,1
+R000147,D00044,Specialist,Permanent,1.0,37.5,0,1
+R000148,D00044,Registered Nurse,Permanent,1.0,37.5,14,1
+R000149,D00045,Proceduralist,Permanent,1.0,37.5,8,1
+R000150,D00045,Registered Nurse,Contract,0.5,18.8,5,1
+R000151,D00046,Physician,Permanent,1.0,37.5,14,1
+R000152,D00046,Nurse Practitioner,Contract,0.8,30.0,17,1
+R000153,D00046,Registered Nurse,Permanent,1.0,37.5,5,1
+R000154,D00046,Physician,Contract,0.5,18.8,1,1
+R000155,D00046,Nurse Practitioner,Permanent,0.5,18.8,11,1
+R000156,D00047,Technologist,Contract,1.0,37.5,1,1
+R000157,D00047,Sonographer,Permanent,1.0,37.5,0,1
+R000158,D00047,Registered Nurse,Permanent,0.8,30.0,2,1
+R000159,D00048,Physiotherapist,Contract,1.0,37.5,3,1
+R000160,D00048,Occupational Therapist,Permanent,0.6,22.5,11,1
+R000161,D00048,Rehabilitation Assistant,Permanent,0.5,18.8,0,1
+R000162,D00048,Physiotherapist,Permanent,1.0,37.5,10,1
+R000163,D00049,Specialist,Contract,1.0,37.5,4,1
+R000164,D00049,Registered Nurse,Permanent,0.6,22.5,1,1
+R000165,D00049,Clinic Coordinator,Permanent,1.0,37.5,16,1
+R000166,D00050,Proceduralist,Permanent,1.0,37.5,12,1
+R000167,D00050,Registered Nurse,Permanent,0.8,30.0,0,1
+R000168,D00051,Physician,Permanent,0.5,18.8,2,1
+R000169,D00051,Nurse Practitioner,Permanent,1.0,37.5,13,1
+R000170,D00051,Registered Nurse,Permanent,0.5,18.8,15,1
+R000171,D00051,Physician,Permanent,1.0,37.5,13,1
+R000172,D00051,Nurse Practitioner,Permanent,0.5,18.8,4,1
+R000173,D00052,Technologist,Permanent,1.0,37.5,17,1
+R000174,D00052,Sonographer,Permanent,1.0,37.5,0,1
+R000175,D00053,Physiotherapist,Contract,0.5,18.8,0,1
+R000176,D00053,Occupational Therapist,Permanent,0.8,30.0,12,1
+R000177,D00053,Rehabilitation Assistant,Permanent,0.8,30.0,1,1
+R000178,D00053,Physiotherapist,Permanent,0.8,30.0,17,1
+R000179,D00054,Specialist,Permanent,1.0,37.5,14,1
+R000180,D00054,Registered Nurse,Permanent,1.0,37.5,10,1
+R000181,D00054,Clinic Coordinator,Permanent,0.6,22.5,17,1
+R000182,D00054,Specialist,Permanent,0.8,30.0,10,1
+R000183,D00055,Proceduralist,Contract,0.6,22.5,11,1
+R000184,D00055,Registered Nurse,Permanent,0.5,18.8,2,1
+R000185,D00056,Physician,Permanent,1.0,37.5,7,1
+R000186,D00056,Nurse Practitioner,Permanent,0.5,18.8,2,1
+R000187,D00056,Registered Nurse,Permanent,1.0,37.5,5,1
+R000188,D00056,Physician,Permanent,1.0,37.5,7,1
+R000189,D00057,Technologist,Permanent,0.8,30.0,11,1
+R000190,D00057,Sonographer,Permanent,0.5,18.8,7,1
+R000191,D00057,Registered Nurse,Permanent,1.0,37.5,10,1
+R000192,D00057,Technologist,Permanent,1.0,37.5,0,1
+R000193,D00058,Physiotherapist,Permanent,0.8,30.0,8,1
+R000194,D00058,Occupational Therapist,Permanent,0.5,18.8,10,1
+R000195,D00059,Specialist,Permanent,1.0,37.5,12,1
+R000196,D00059,Registered Nurse,Permanent,1.0,37.5,11,1
+R000197,D00059,Clinic Coordinator,Permanent,0.6,22.5,14,1
+R000198,D00060,Proceduralist,Permanent,0.6,22.5,7,1
+R000199,D00060,Registered Nurse,Permanent,1.0,37.5,6,1
+R000200,D00060,Service Technician,Contract,1.0,37.5,13,1
+R000201,D00060,Proceduralist,Permanent,0.5,18.8,16,1

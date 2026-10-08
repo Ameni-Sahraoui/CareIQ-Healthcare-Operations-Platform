@@ -1,0 +1,160 @@
+{
+  "platform": "CareIQ \u2014 Healthcare Operations & Patient Experience Intelligence Platform",
+  "tagline": "From Healthcare Data to Better Operational Decisions.",
+  "data_notice": "All records are fictional and synthetic. They are not official Canadian healthcare statistics.",
+  "safety_notice": "Operational analytics prototype only. Not a medical diagnostic or treatment system.",
+  "dataset_name": "careiq_demo_synthetic",
+  "dataset_version": "careiq_demo_synthetic_20260905T001020Z",
+  "generated_at": "2026-09-05T00:10:20.362797+00:00",
+  "generation_config": {
+    "n_patients": 8000,
+    "n_appointments": 60000,
+    "facilities_per_province": 2,
+    "departments_per_facility": 5,
+    "start_date": "2024-01-01",
+    "end_date": "2026-08-31",
+    "as_of_date": "2026-07-31",
+    "forecast_horizon_days": 90,
+    "seed": 42,
+    "anomaly_rate": 0.002,
+    "dataset_name": "careiq_demo_synthetic"
+  },
+  "row_counts": {
+    "FACILITY": 12,
+    "DEPARTMENT": 60,
+    "PROVIDER": 201,
+    "PATIENT": 8000,
+    "APPOINTMENT": 60000,
+    "WAIT_TIME": 41196,
+    "PATIENT_FLOW": 329568,
+    "SATISFACTION": 27090,
+    "CANCELLATION": 9509,
+    "NO_SHOW": 7512,
+    "STAFFING": 56580,
+    "SERVICE_EVENT": 164784,
+    "DATE_DIMENSION": 1064
+  },
+  "table_hashes": {
+    "FACILITY": "6b1ec3ee2b08c598",
+    "DEPARTMENT": "83694f95a5b88d7d",
+    "PROVIDER": "66f518b33e142413",
+    "PATIENT": "827997c50517812e",
+    "APPOINTMENT": "f8efd8974c085796",
+    "WAIT_TIME": "d22dd3e8d9efa15c",
+    "PATIENT_FLOW": "d5f2746b4b6ff5f0",
+    "SATISFACTION": "85f62b1535fccff1",
+    "CANCELLATION": "aa85824356a77b52",
+    "NO_SHOW": "f86816d522ef6730",
+    "STAFFING": "06139857106ba3ca",
+    "SERVICE_EVENT": "d51434e9df74f50d",
+    "DATE_DIMENSION": "d30cd5d4c9a57ccc"
+  },
+  "injected_raw_issues": [
+    {
+      "entity": "APPOINTMENT",
+      "issue": "duplicate appointment_id",
+      "count": 120
+    },
+    {
+      "entity": "APPOINTMENT",
+      "issue": "missing booking channel",
+      "count": 120
+    },
+    {
+      "entity": "APPOINTMENT",
+      "issue": "invalid provider key",
+      "count": 120
+    },
+    {
+      "entity": "APPOINTMENT",
+      "issue": "booked_at not before scheduled_at",
+      "count": 120
+    },
+    {
+      "entity": "WAIT_TIME",
+      "issue": "negative wait duration",
+      "count": 82
+    },
+    {
+      "entity": "SATISFACTION",
+      "issue": "score outside 1-5",
+      "count": 54
+    },
+    {
+      "entity": "STAFFING",
+      "issue": "negative actual hours",
+      "count": 113
+    }
+  ],
+  "feature_store": {
+    "appointment_feature_rows": 60000,
+    "department_daily_rows": 56580,
+    "historical_appointments": 58217,
+    "future_scheduled_appointments": 1783,
+    "dataset_version": "careiq_demo_synthetic_20260905T001020Z"
+  },
+  "model_version": "careiq_models_20260905T002034Z",
+  "selected_models": {
+    "no_show": "Logistic Regression",
+    "cancellation": "Logistic Regression",
+    "wait_time_risk": "XGBoost",
+    "capacity_pressure": "XGBoost"
+  },
+  "forecast_model": "HistGradientBoosting",
+  "forecast_model_version": "careiq_demand_20260905T002110Z",
+  "explanations": {
+    "global_rows": 97,
+    "segment_rows": 128
+  },
+  "decision_support_rows": 3846,
+  "monitoring_rows": 11,
+  "power_bi_exports": {
+    "facility.csv": 12,
+    "department.csv": 60,
+    "provider.csv": 201,
+    "patient.csv": 8000,
+    "appointment.csv": 60000,
+    "wait_time.csv": 41196,
+    "patient_flow.csv": 329568,
+    "satisfaction.csv": 27090,
+    "cancellation.csv": 9509,
+    "no_show.csv": 7512,
+    "staffing.csv": 56580,
+    "service_event.csv": 164784,
+    "date_dimension.csv": 1064,
+    "appointment_feature.csv": 60000,
+    "department_daily.csv": 56580,
+    "model_registry.csv": 4,
+    "model_metric.csv": 216,
+    "prediction.csv": 12549,
+    "demand_forecast.csv": 16200,
+    "global_explanation.csv": 97,
+    "segment_explanation.csv": 128,
+    "model_monitoring.csv": 11,
+    "data_quality_result.csv": 39,
+    "decision_support.csv": 2627,
+    "executive_kpis.csv": 1,
+    "patient_flow_summary.csv": 480
+  },
+  "consistency_audit_status": "PASS",
+  "consistency_checks_passed": 37,
+  "consistency_checks_failed": 0,
+  "forecast_metrics_by_granularity": {
+    "daily": {
+      "mae": 0.41603875274780894,
+      "rmse": 0.5955514733235696,
+      "wape": 1.1811825787792682
+    },
+    "weekly": {
+      "mae": 1.1587742576314086,
+      "rmse": 1.5377830248339388,
+      "wape": 0.4934843053004422
+    },
+    "monthly": {
+      "mae": 2.1966113144360886,
+      "rmse": 2.9267138740002525,
+      "wape": 0.20788119694978757
+    }
+  },
+  "automated_tests_passed": 13
+}

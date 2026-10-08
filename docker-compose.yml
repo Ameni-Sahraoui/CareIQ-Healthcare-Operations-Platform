@@ -1,0 +1,12 @@
+services:
+  careiq:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      CAREIQ_DB_PATH: data/careiq.sqlite
+    volumes:
+      - ./data:/app/data
+      - ./artifacts:/app/artifacts
+      - ./exports:/app/exports
+    restart: unless-stopped

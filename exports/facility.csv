@@ -1,0 +1,13 @@
+facility_id,facility_name,province,city,facility_type,timezone,operating_model,daily_visit_capacity,synthetic_record
+F0001,Northlake Regional Ambulatory Centre (Fictional),ON,Toronto,Regional Ambulatory Centre,America/Toronto,Integrated,60,1
+F0002,Maple Ridge Community Health Centre (Fictional),ON,Ottawa,Community Health Centre,America/Toronto,Hub-and-spoke,46,1
+F0003,Prairie Sky Regional Ambulatory Centre (Fictional),QC,Montréal,Regional Ambulatory Centre,America/Toronto,Hub-and-spoke,64,1
+F0004,Harbourview Community Health Centre (Fictional),QC,Québec City,Community Health Centre,America/Toronto,Integrated,57,1
+F0005,Northern Pines Regional Ambulatory Centre (Fictional),AB,Calgary,Regional Ambulatory Centre,America/Edmonton,Integrated,31,1
+F0006,Riverstone Community Health Centre (Fictional),AB,Edmonton,Community Health Centre,America/Edmonton,Hub-and-spoke,68,1
+F0007,Cedar Valley Regional Ambulatory Centre (Fictional),BC,Vancouver,Regional Ambulatory Centre,America/Vancouver,Community network,59,1
+F0008,Aurora Community Health Centre (Fictional),BC,Victoria,Community Health Centre,America/Vancouver,Community network,61,1
+F0009,Lakeshore Regional Ambulatory Centre (Fictional),MB,Winnipeg,Regional Ambulatory Centre,America/Winnipeg,Hub-and-spoke,33,1
+F0010,Summit Community Health Centre (Fictional),MB,Brandon,Community Health Centre,America/Winnipeg,Community network,46,1
+F0011,Evergreen Regional Ambulatory Centre (Fictional),SK,Saskatoon,Regional Ambulatory Centre,America/Regina,Hub-and-spoke,43,1
+F0012,Grand River Community Health Centre (Fictional),SK,Regina,Community Health Centre,America/Regina,Integrated,66,1

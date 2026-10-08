@@ -1,0 +1,246 @@
+{
+  "platform": "CareIQ",
+  "generated_at": "2026-09-05T00:21:53.507788+00:00",
+  "overall_status": "PASS",
+  "checks_passed": 37,
+  "checks_failed": 0,
+  "checks": [
+    {
+      "check": "Required tables exist",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Zero missing required tables"
+    },
+    {
+      "check": "PATIENT populated",
+      "status": "PASS",
+      "value": 8000,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "APPOINTMENT populated",
+      "status": "PASS",
+      "value": 60000,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "DEPARTMENT populated",
+      "status": "PASS",
+      "value": 60,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "PROVIDER populated",
+      "status": "PASS",
+      "value": 201,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "FACILITY populated",
+      "status": "PASS",
+      "value": 12,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "WAIT_TIME populated",
+      "status": "PASS",
+      "value": 41196,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "PATIENT_FLOW populated",
+      "status": "PASS",
+      "value": 329568,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "SATISFACTION populated",
+      "status": "PASS",
+      "value": 27090,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "CANCELLATION populated",
+      "status": "PASS",
+      "value": 9509,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "NO_SHOW populated",
+      "status": "PASS",
+      "value": 7512,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "STAFFING populated",
+      "status": "PASS",
+      "value": 56580,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "SERVICE_EVENT populated",
+      "status": "PASS",
+      "value": 164784,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "APPOINTMENT_FEATURE populated",
+      "status": "PASS",
+      "value": 60000,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "DEPARTMENT_DAILY populated",
+      "status": "PASS",
+      "value": 56580,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "PREDICTION populated",
+      "status": "PASS",
+      "value": 12549,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "DEMAND_FORECAST populated",
+      "status": "PASS",
+      "value": 16200,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "MODEL_REGISTRY populated",
+      "status": "PASS",
+      "value": 4,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "MODEL_METRIC populated",
+      "status": "PASS",
+      "value": 228,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "DATA_QUALITY_RESULT populated",
+      "status": "PASS",
+      "value": 39,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "DECISION_SUPPORT populated",
+      "status": "PASS",
+      "value": 3846,
+      "expectation": "More than zero rows"
+    },
+    {
+      "check": "Foreign-key integrity",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Zero foreign-key violations"
+    },
+    {
+      "check": "SQLite integrity",
+      "status": "PASS",
+      "value": "ok",
+      "expectation": "ok"
+    },
+    {
+      "check": "Synthetic-data labelling",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Every record explicitly marked synthetic"
+    },
+    {
+      "check": "Completed appointment to flow coverage",
+      "status": "PASS",
+      "value": {
+        "completed": 41196,
+        "flow_appointments": 41196
+      },
+      "expectation": "One flow record set per completed appointment"
+    },
+    {
+      "check": "Eight-stage patient flow",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Every completed flow has eight ordered stages"
+    },
+    {
+      "check": "Wait-time reconciliation",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Wait total equals components"
+    },
+    {
+      "check": "Future prediction coverage: no_show",
+      "status": "PASS",
+      "value": {
+        "predictions": 1783,
+        "future_appointments": 1783
+      },
+      "expectation": "One prediction per future appointment"
+    },
+    {
+      "check": "Future prediction coverage: cancellation",
+      "status": "PASS",
+      "value": {
+        "predictions": 1783,
+        "future_appointments": 1783
+      },
+      "expectation": "One prediction per future appointment"
+    },
+    {
+      "check": "Future prediction coverage: wait_time_risk",
+      "status": "PASS",
+      "value": {
+        "predictions": 1783,
+        "future_appointments": 1783
+      },
+      "expectation": "One prediction per future appointment"
+    },
+    {
+      "check": "Prediction probability range",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "All probabilities between 0 and 1"
+    },
+    {
+      "check": "Prediction lineage completeness",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Model version, dataset version and timestamp populated"
+    },
+    {
+      "check": "Forecast interval validity",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Lower <= forecast <= upper and lower non-negative"
+    },
+    {
+      "check": "Forecast horizon populated",
+      "status": "PASS",
+      "value": 90,
+      "expectation": "At least 30 future daily forecast dates"
+    },
+    {
+      "check": "High-risk decision-support coverage",
+      "status": "PASS",
+      "value": {
+        "high_risk": 3811,
+        "recommendations": 3811
+      },
+      "expectation": "At least one operational recommendation for each high-risk prediction"
+    },
+    {
+      "check": "Post-clean data quality",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "Zero error-severity clean-data failures"
+    },
+    {
+      "check": "Non-clinical recommendation boundary",
+      "status": "PASS",
+      "value": 0,
+      "expectation": "No diagnosis, prescribing or medication language in operational suggestions"
+    }
+  ]
+}

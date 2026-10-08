@@ -1,0 +1,61 @@
+department_id,facility_id,department_name,department_group,appointment_slots_daily,target_wait_minutes,standard_service_minutes,open_hour,close_hour,synthetic_record
+D00001,F0001,Primary Care Operations,Primary Care,10,30.0,27.0,7,18,1
+D00002,F0001,Diagnostic Services,Diagnostics,8,36.0,38.0,7,18,1
+D00003,F0001,Rehabilitation Services,Rehabilitation,6,22.0,41.0,7,18,1
+D00004,F0001,Specialty Clinic Operations,Specialty Clinics,6,46.0,35.0,7,18,1
+D00005,F0001,Ambulatory Service Centre,Ambulatory Services,7,42.0,50.0,7,18,1
+D00006,F0002,Primary Care Operations,Primary Care,9,25.0,32.0,7,18,1
+D00007,F0002,Diagnostic Services,Diagnostics,8,34.0,33.0,7,18,1
+D00008,F0002,Rehabilitation Services,Rehabilitation,8,24.0,50.0,7,18,1
+D00009,F0002,Specialty Clinic Operations,Specialty Clinics,7,45.0,44.0,7,18,1
+D00010,F0002,Ambulatory Service Centre,Ambulatory Services,3,37.0,52.0,7,18,1
+D00011,F0003,Primary Care Operations,Primary Care,8,24.0,29.0,7,18,1
+D00012,F0003,Diagnostic Services,Diagnostics,4,38.0,41.0,7,18,1
+D00013,F0003,Rehabilitation Services,Rehabilitation,8,27.0,44.0,7,18,1
+D00014,F0003,Specialty Clinic Operations,Specialty Clinics,8,42.0,38.0,7,18,1
+D00015,F0003,Ambulatory Service Centre,Ambulatory Services,7,37.0,47.0,7,18,1
+D00016,F0004,Primary Care Operations,Primary Care,8,31.0,25.0,7,18,1
+D00017,F0004,Diagnostic Services,Diagnostics,6,32.0,41.0,7,18,1
+D00018,F0004,Rehabilitation Services,Rehabilitation,6,23.0,42.0,7,18,1
+D00019,F0004,Specialty Clinic Operations,Specialty Clinics,6,44.0,46.0,7,18,1
+D00020,F0004,Ambulatory Service Centre,Ambulatory Services,5,35.0,56.0,7,18,1
+D00021,F0005,Primary Care Operations,Primary Care,9,31.0,24.0,7,18,1
+D00022,F0005,Diagnostic Services,Diagnostics,5,38.0,42.0,7,18,1
+D00023,F0005,Rehabilitation Services,Rehabilitation,6,28.0,50.0,7,18,1
+D00024,F0005,Specialty Clinic Operations,Specialty Clinics,5,46.0,38.0,7,18,1
+D00025,F0005,Ambulatory Service Centre,Ambulatory Services,4,40.0,54.0,7,18,1
+D00026,F0006,Primary Care Operations,Primary Care,5,32.0,25.0,7,18,1
+D00027,F0006,Diagnostic Services,Diagnostics,8,31.0,42.0,7,18,1
+D00028,F0006,Rehabilitation Services,Rehabilitation,7,27.0,47.0,7,18,1
+D00029,F0006,Specialty Clinic Operations,Specialty Clinics,5,45.0,38.0,7,18,1
+D00030,F0006,Ambulatory Service Centre,Ambulatory Services,6,39.0,52.0,7,18,1
+D00031,F0007,Primary Care Operations,Primary Care,8,29.0,23.0,7,18,1
+D00032,F0007,Diagnostic Services,Diagnostics,4,33.0,34.0,7,18,1
+D00033,F0007,Rehabilitation Services,Rehabilitation,6,26.0,47.0,7,18,1
+D00034,F0007,Specialty Clinic Operations,Specialty Clinics,5,46.0,41.0,7,18,1
+D00035,F0007,Ambulatory Service Centre,Ambulatory Services,3,41.0,53.0,7,18,1
+D00036,F0008,Primary Care Operations,Primary Care,9,29.0,29.0,7,18,1
+D00037,F0008,Diagnostic Services,Diagnostics,4,36.0,42.0,7,18,1
+D00038,F0008,Rehabilitation Services,Rehabilitation,5,26.0,40.0,7,18,1
+D00039,F0008,Specialty Clinic Operations,Specialty Clinics,5,42.0,46.0,7,18,1
+D00040,F0008,Ambulatory Service Centre,Ambulatory Services,4,36.0,51.0,7,18,1
+D00041,F0009,Primary Care Operations,Primary Care,11,32.0,23.0,7,18,1
+D00042,F0009,Diagnostic Services,Diagnostics,5,39.0,33.0,7,18,1
+D00043,F0009,Rehabilitation Services,Rehabilitation,8,22.0,51.0,7,18,1
+D00044,F0009,Specialty Clinic Operations,Specialty Clinics,4,42.0,42.0,7,18,1
+D00045,F0009,Ambulatory Service Centre,Ambulatory Services,3,39.0,53.0,7,18,1
+D00046,F0010,Primary Care Operations,Primary Care,10,33.0,30.0,7,18,1
+D00047,F0010,Diagnostic Services,Diagnostics,6,35.0,38.0,7,18,1
+D00048,F0010,Rehabilitation Services,Rehabilitation,8,23.0,42.0,7,18,1
+D00049,F0010,Specialty Clinic Operations,Specialty Clinics,5,38.0,36.0,7,18,1
+D00050,F0010,Ambulatory Service Centre,Ambulatory Services,3,41.0,55.0,7,18,1
+D00051,F0011,Primary Care Operations,Primary Care,9,28.0,31.0,7,18,1
+D00052,F0011,Diagnostic Services,Diagnostics,4,40.0,39.0,7,18,1
+D00053,F0011,Rehabilitation Services,Rehabilitation,8,21.0,45.0,7,18,1
+D00054,F0011,Specialty Clinic Operations,Specialty Clinics,7,42.0,40.0,7,18,1
+D00055,F0011,Ambulatory Service Centre,Ambulatory Services,3,37.0,49.0,7,18,1
+D00056,F0012,Primary Care Operations,Primary Care,7,30.0,30.0,7,18,1
+D00057,F0012,Diagnostic Services,Diagnostics,7,34.0,44.0,7,18,1
+D00058,F0012,Rehabilitation Services,Rehabilitation,4,23.0,41.0,7,18,1
+D00059,F0012,Specialty Clinic Operations,Specialty Clinics,5,47.0,39.0,7,18,1
+D00060,F0012,Ambulatory Service Centre,Ambulatory Services,7,38.0,55.0,7,18,1

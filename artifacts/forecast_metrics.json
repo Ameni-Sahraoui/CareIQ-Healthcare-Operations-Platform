@@ -1,0 +1,61 @@
+{
+  "forecast_model_version": "careiq_demand_20260905T002110Z",
+  "training_date": "2026-09-05T00:21:11.557867+00:00",
+  "dataset_version": "careiq_demo_synthetic_20260905T001020Z",
+  "as_of_date": "2026-07-31",
+  "forecast_horizon_days": 90,
+  "holdout_start": "2026-06-02",
+  "holdout_rows": 10800,
+  "selected_model": "HistGradientBoosting",
+  "candidate_metrics": {
+    "SeasonalNaive7": {
+      "holdout": {
+        "mae": 0.45814814814814814,
+        "rmse": 0.8289886743630592,
+        "wape": 1.3007360672975814
+      }
+    },
+    "HistGradientBoosting": {
+      "holdout": {
+        "mae": 0.41603875274780894,
+        "rmse": 0.5955514733235696,
+        "wape": 1.1811825787792682
+      }
+    },
+    "RandomForestRegressor": {
+      "holdout": {
+        "mae": 0.429980836390811,
+        "rmse": 0.6004195556564115,
+        "wape": 1.2207657815511985
+      }
+    },
+    "XGBoostRegressor": {
+      "holdout": {
+        "mae": 0.41966071497735186,
+        "rmse": 0.5965403642447992,
+        "wape": 1.1914657523016299
+      }
+    }
+  },
+  "prediction_interval_method": "Symmetric 90th-percentile absolute temporal-holdout residual interval.",
+  "interval_half_width": 0.8292577767193566,
+  "holdout_interval_coverage": 0.9,
+  "selected_model_metrics_by_granularity": {
+    "daily": {
+      "mae": 0.41603875274780894,
+      "rmse": 0.5955514733235696,
+      "wape": 1.1811825787792682
+    },
+    "weekly": {
+      "mae": 1.1587742576314086,
+      "rmse": 1.5377830248339388,
+      "wape": 0.4934843053004422
+    },
+    "monthly": {
+      "mae": 2.1966113144360886,
+      "rmse": 2.9267138740002525,
+      "wape": 0.20788119694978757
+    }
+  },
+  "forecast_rows": 16200
+}

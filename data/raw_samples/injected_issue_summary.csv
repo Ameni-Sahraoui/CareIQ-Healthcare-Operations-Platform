@@ -1,0 +1,8 @@
+entity,issue,count
+APPOINTMENT,duplicate appointment_id,120
+APPOINTMENT,missing booking channel,120
+APPOINTMENT,invalid provider key,120
+APPOINTMENT,booked_at not before scheduled_at,120
+WAIT_TIME,negative wait duration,82
+SATISFACTION,score outside 1-5,54
+STAFFING,negative actual hours,113

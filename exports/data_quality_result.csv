@@ -1,0 +1,40 @@
+result_id,stage,entity_name,check_name,severity,records_checked,failures,status,details,checked_at
+DQ00001,clean,PATIENT,Row identity uniqueness,Error,8000,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.496269+00:00
+DQ00002,clean,PATIENT,Synthetic-data flag,Error,8000,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.497184+00:00
+DQ00003,clean,APPOINTMENT,Row identity uniqueness,Error,60000,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.517816+00:00
+DQ00004,clean,APPOINTMENT,Synthetic-data flag,Error,60000,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.526157+00:00
+DQ00005,clean,DEPARTMENT,Row identity uniqueness,Error,60,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.526250+00:00
+DQ00006,clean,DEPARTMENT,Synthetic-data flag,Error,60,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.526282+00:00
+DQ00007,clean,PROVIDER,Row identity uniqueness,Error,201,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.526330+00:00
+DQ00008,clean,PROVIDER,Synthetic-data flag,Error,201,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.526394+00:00
+DQ00009,clean,FACILITY,Row identity uniqueness,Error,12,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.526430+00:00
+DQ00010,clean,FACILITY,Synthetic-data flag,Error,12,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.526447+00:00
+DQ00011,clean,WAIT_TIME,Row identity uniqueness,Error,41196,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.548617+00:00
+DQ00012,clean,WAIT_TIME,Synthetic-data flag,Error,41196,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.552086+00:00
+DQ00013,clean,PATIENT_FLOW,Row identity uniqueness,Error,329568,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.723056+00:00
+DQ00014,clean,PATIENT_FLOW,Synthetic-data flag,Error,329568,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.751954+00:00
+DQ00015,clean,SATISFACTION,Row identity uniqueness,Error,27090,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.766566+00:00
+DQ00016,clean,SATISFACTION,Synthetic-data flag,Error,27090,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.769577+00:00
+DQ00017,clean,CANCELLATION,Row identity uniqueness,Error,9509,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.773999+00:00
+DQ00018,clean,CANCELLATION,Synthetic-data flag,Error,9509,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.774733+00:00
+DQ00019,clean,NO_SHOW,Row identity uniqueness,Error,7512,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.778000+00:00
+DQ00020,clean,NO_SHOW,Synthetic-data flag,Error,7512,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.778538+00:00
+DQ00021,clean,STAFFING,Row identity uniqueness,Error,56580,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.788894+00:00
+DQ00022,clean,STAFFING,Synthetic-data flag,Error,56580,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.795117+00:00
+DQ00023,clean,SERVICE_EVENT,Row identity uniqueness,Error,164784,0,PASS,Primary-key and row identity check.,2026-09-05T00:10:21.832326+00:00
+DQ00024,clean,SERVICE_EVENT,Synthetic-data flag,Error,164784,0,PASS,Every operational record must be explicitly labelled synthetic.,2026-09-05T00:10:21.853807+00:00
+DQ00025,clean,DATABASE,Referential integrity,Error,60000,0,PASS,SQLite foreign-key integrity across governed tables.,2026-09-05T00:10:22.102188+00:00
+DQ00026,clean,APPOINTMENT,Booking precedes appointment,Error,60000,0,PASS,booked_at must be earlier than scheduled_at.,2026-09-05T00:10:22.126661+00:00
+DQ00027,clean,APPOINTMENT,Provider belongs to appointment department,Error,60000,0,PASS,Prevents cross-department provider key mismatches.,2026-09-05T00:10:22.153550+00:00
+DQ00028,clean,APPOINTMENT,Facility matches department,Error,60000,0,PASS,Appointment facility must match its department facility.,2026-09-05T00:10:22.175412+00:00
+DQ00029,clean,WAIT_TIME,Non-negative wait durations,Error,41196,0,PASS,All wait components and totals must be non-negative.,2026-09-05T00:10:22.181870+00:00
+DQ00030,clean,WAIT_TIME,Wait component reconciliation,Error,41196,0,PASS,Total wait must equal the sum of component waits.,2026-09-05T00:10:22.188105+00:00
+DQ00031,clean,WAIT_TIME,Wait records only for completed visits,Error,41196,0,PASS,"No-show, cancelled and future scheduled appointments should not have completed-visit wait records.",2026-09-05T00:10:22.201603+00:00
+DQ00032,clean,PATIENT_FLOW,Eight-stage operational flow coverage,Error,41196,0,PASS,Each completed appointment must have the defined eight-stage flow.,2026-09-05T00:10:22.283961+00:00
+DQ00033,clean,PATIENT_FLOW,Temporal stage validity,Error,329568,0,PASS,Stage end must not precede stage start and durations must be non-negative.,2026-09-05T00:10:22.415012+00:00
+DQ00034,clean,PATIENT_FLOW,Stage sequence monotonicity,Error,329568,0,PASS,A later operational stage cannot start before the prior stage ends.,2026-09-05T00:10:23.182953+00:00
+DQ00035,clean,SATISFACTION,Survey score range,Error,27090,0,PASS,All patient-experience scores must be between 1 and 5.,2026-09-05T00:10:23.192733+00:00
+DQ00036,clean,NO_SHOW,No-show status consistency,Error,7512,0,PASS,NO_SHOW records must reference appointments with No-Show status.,2026-09-05T00:10:23.218238+00:00
+DQ00037,clean,CANCELLATION,Cancellation timing and status,Error,9509,0,PASS,Cancellation must occur before the appointment and match Cancelled status.,2026-09-05T00:10:23.235146+00:00
+DQ00038,clean,STAFFING,Non-negative staffing hours,Error,56580,0,PASS,Staffing hour measures cannot be negative.,2026-09-05T00:10:23.260598+00:00
+DQ00039,clean,APPOINTMENT,Future appointments remain unlabelled,Error,1783,0,PASS,Future appointments must remain Scheduled to prevent target leakage.,2026-09-05T00:10:23.299853+00:00

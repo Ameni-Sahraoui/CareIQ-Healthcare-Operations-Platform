@@ -1,0 +1,1183 @@
+{
+  "model_version": "careiq_models_20260905T002034Z",
+  "training_date": "2026-09-05T00:20:34.652688+00:00",
+  "dataset_version": "careiq_demo_synthetic_20260905T001020Z",
+  "selection_rule": "Highest mean temporal cross-validation PR-AUC; temporal holdout retained for final evaluation.",
+  "tasks": {
+    "no_show": {
+      "selected_model": "Logistic Regression",
+      "training_rows": 15200,
+      "holdout_rows": 4800,
+      "positive_rate": 0.1291,
+      "train_end": "2026-01-01 10:30:00",
+      "test_start": "2026-01-01 10:50:00",
+      "candidate_metrics": {
+        "Logistic Regression": {
+          "cv_mean": {
+            "roc_auc": 0.5613844688783138,
+            "pr_auc": 0.16571236885415289,
+            "precision": 0.15866292468973356,
+            "recall": 0.6250196914371614,
+            "f1": 0.2520080548345859,
+            "brier": 0.2661594786569867
+          },
+          "holdout": {
+            "roc_auc": 0.5728493641964905,
+            "pr_auc": 0.16072405960956496,
+            "precision": 0.1358709352155281,
+            "recall": 0.880718954248366,
+            "f1": 0.23542258134963967,
+            "brier": 0.26173917639506555,
+            "tn": 760.0,
+            "fp": 3428.0,
+            "fn": 73.0,
+            "tp": 539.0,
+            "positive_rate": 0.1275,
+            "predicted_positive_rate": 0.8264583333333333,
+            "decision_threshold": 0.44
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.5527637109519487,
+              "pr_auc": 0.15728766170784958,
+              "precision": 0.1595940959409594,
+              "recall": 0.5014492753623189,
+              "f1": 0.24212736179146255,
+              "brier": 0.2494131260835654,
+              "tn": 1244.0,
+              "fp": 911.0,
+              "fn": 172.0,
+              "tp": 173.0,
+              "positive_rate": 0.138,
+              "predicted_positive_rate": 0.4336,
+              "fold": 1.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.570380275301908,
+              "pr_auc": 0.17014792906482018,
+              "precision": 0.16585704371963914,
+              "recall": 0.6694677871148459,
+              "f1": 0.26585094549499444,
+              "brier": 0.27259736604633855,
+              "tn": 941.0,
+              "fp": 1202.0,
+              "fn": 118.0,
+              "tp": 239.0,
+              "positive_rate": 0.1428,
+              "predicted_positive_rate": 0.5764,
+              "fold": 2.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.5610094203810848,
+              "pr_auc": 0.16970151578978887,
+              "precision": 0.15053763440860216,
+              "recall": 0.7041420118343196,
+              "f1": 0.24804585721730069,
+              "brier": 0.27646794384105605,
+              "tn": 819.0,
+              "fp": 1343.0,
+              "fn": 100.0,
+              "tp": 238.0,
+              "positive_rate": 0.1352,
+              "predicted_positive_rate": 0.6324,
+              "fold": 3.0,
+              "model_name": "Logistic Regression"
+            }
+          ],
+          "decision_threshold": 0.44
+        },
+        "Random Forest": {
+          "cv_mean": {
+            "roc_auc": 0.539423257362379,
+            "pr_auc": 0.15136600844445194,
+            "precision": 0.1429103315576393,
+            "recall": 0.1293904338169536,
+            "f1": 0.1293280621734905,
+            "brier": 0.19750577352264345
+          },
+          "holdout": {
+            "roc_auc": 0.5426650841807592,
+            "pr_auc": 0.1456342973216774,
+            "precision": 0.13664436438497168,
+            "recall": 0.8676470588235294,
+            "f1": 0.23610493552690084,
+            "brier": 0.2121501097040715,
+            "tn": 833.0,
+            "fp": 3355.0,
+            "fn": 81.0,
+            "tp": 531.0,
+            "positive_rate": 0.1275,
+            "predicted_positive_rate": 0.8095833333333333,
+            "decision_threshold": 0.38
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.5293816200948249,
+              "pr_auc": 0.14276339365701482,
+              "precision": 0.09917355371900827,
+              "recall": 0.034782608695652174,
+              "f1": 0.05150214592274678,
+              "brier": 0.17941474996146303,
+              "tn": 2046.0,
+              "fp": 109.0,
+              "fn": 333.0,
+              "tp": 12.0,
+              "positive_rate": 0.138,
+              "predicted_positive_rate": 0.0484,
+              "fold": 1.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.5364178335823363,
+              "pr_auc": 0.15649752442135528,
+              "precision": 0.16326530612244897,
+              "recall": 0.13445378151260504,
+              "f1": 0.14746543778801843,
+              "brier": 0.20219171655026272,
+              "tn": 1897.0,
+              "fp": 246.0,
+              "fn": 309.0,
+              "tp": 48.0,
+              "positive_rate": 0.1428,
+              "predicted_positive_rate": 0.1176,
+              "fold": 2.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.5524703184099755,
+              "pr_auc": 0.15483710725498578,
+              "precision": 0.1662921348314607,
+              "recall": 0.21893491124260356,
+              "f1": 0.18901660280970625,
+              "brier": 0.2109108540562046,
+              "tn": 1791.0,
+              "fp": 371.0,
+              "fn": 264.0,
+              "tp": 74.0,
+              "positive_rate": 0.1352,
+              "predicted_positive_rate": 0.178,
+              "fold": 3.0,
+              "model_name": "Random Forest"
+            }
+          ],
+          "decision_threshold": 0.38
+        },
+        "XGBoost": {
+          "cv_mean": {
+            "roc_auc": 0.546522784775264,
+            "pr_auc": 0.16069892749991424,
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "brier": 0.12015651166439056
+          },
+          "holdout": {
+            "roc_auc": 0.5572123667996329,
+            "pr_auc": 0.1542817692728021,
+            "precision": 0.13469171738555175,
+            "recall": 0.8316993464052288,
+            "f1": 0.23183785014803007,
+            "brier": 0.1109289824962616,
+            "tn": 918.0,
+            "fp": 3270.0,
+            "fn": 103.0,
+            "tp": 509.0,
+            "positive_rate": 0.1275,
+            "predicted_positive_rate": 0.7872916666666666,
+            "decision_threshold": 0.11
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.5280164094286963,
+              "pr_auc": 0.15968626098661565,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "brier": 0.11978600919246674,
+              "tn": 2155.0,
+              "fp": 0.0,
+              "fn": 345.0,
+              "tp": 0.0,
+              "positive_rate": 0.138,
+              "predicted_positive_rate": 0.0,
+              "fold": 1.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.5564877374188126,
+              "pr_auc": 0.1656438431961993,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "brier": 0.12283846735954285,
+              "tn": 2143.0,
+              "fp": 0.0,
+              "fn": 357.0,
+              "tp": 0.0,
+              "positive_rate": 0.1428,
+              "predicted_positive_rate": 0.0,
+              "fold": 2.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.5550642074782828,
+              "pr_auc": 0.15676667831692775,
+              "precision": 0.0,
+              "recall": 0.0,
+              "f1": 0.0,
+              "brier": 0.11784505844116211,
+              "tn": 2162.0,
+              "fp": 0.0,
+              "fn": 338.0,
+              "tp": 0.0,
+              "positive_rate": 0.1352,
+              "predicted_positive_rate": 0.0,
+              "fold": 3.0,
+              "model_name": "XGBoost"
+            }
+          ],
+          "decision_threshold": 0.11
+        }
+      },
+      "fairness_monitoring": [
+        {
+          "attribute": "age_band",
+          "group": "0-17",
+          "n": 527,
+          "actual_rate": 0.12333965844402277,
+          "mean_prediction": 0.5107534675398928,
+          "brier": 0.26420544782217165
+        },
+        {
+          "attribute": "age_band",
+          "group": "18-34",
+          "n": 1102,
+          "actual_rate": 0.12704174228675136,
+          "mean_prediction": 0.5157827025545526,
+          "brier": 0.26487809877838187
+        },
+        {
+          "attribute": "age_band",
+          "group": "35-49",
+          "n": 1010,
+          "actual_rate": 0.1297029702970297,
+          "mean_prediction": 0.5114831638404115,
+          "brier": 0.2608114692160084
+        },
+        {
+          "attribute": "age_band",
+          "group": "50-64",
+          "n": 1056,
+          "actual_rate": 0.13541666666666666,
+          "mean_prediction": 0.5106771046432033,
+          "brier": 0.2594013265505325
+        },
+        {
+          "attribute": "age_band",
+          "group": "65-74",
+          "n": 657,
+          "actual_rate": 0.1156773211567732,
+          "mean_prediction": 0.5154487913760603,
+          "brier": 0.26439826358789303
+        },
+        {
+          "attribute": "age_band",
+          "group": "75+",
+          "n": 448,
+          "actual_rate": 0.12723214285714285,
+          "mean_prediction": 0.5094309201748214,
+          "brier": 0.2548193457979394
+        },
+        {
+          "attribute": "rurality",
+          "group": "Rural",
+          "n": 741,
+          "actual_rate": 0.19433198380566802,
+          "mean_prediction": 0.5168406689624181,
+          "brier": 0.26152153134938555
+        },
+        {
+          "attribute": "rurality",
+          "group": "Suburban",
+          "n": 1378,
+          "actual_rate": 0.11465892597968069,
+          "mean_prediction": 0.5130592384081512,
+          "brier": 0.2627496333953303
+        },
+        {
+          "attribute": "rurality",
+          "group": "Urban",
+          "n": 2681,
+          "actual_rate": 0.11562849682954121,
+          "mean_prediction": 0.5111275552165185,
+          "brier": 0.261279969096477
+        }
+      ]
+    },
+    "cancellation": {
+      "selected_model": "Logistic Regression",
+      "training_rows": 15200,
+      "holdout_rows": 4800,
+      "positive_rate": 0.16415,
+      "train_end": "2026-01-01 10:30:00",
+      "test_start": "2026-01-01 10:50:00",
+      "candidate_metrics": {
+        "Logistic Regression": {
+          "cv_mean": {
+            "roc_auc": 0.6429002429298514,
+            "pr_auc": 0.30073737716907734,
+            "precision": 0.288174420178006,
+            "recall": 0.42281764523192694,
+            "f1": 0.3408692804102995,
+            "brier": 0.22112675243347116
+          },
+          "holdout": {
+            "roc_auc": 0.6506428803207952,
+            "pr_auc": 0.324458662849995,
+            "precision": 0.3817204301075269,
+            "recall": 0.359039190897598,
+            "f1": 0.3700325732899023,
+            "brier": 0.2265556877068594,
+            "tn": 3549.0,
+            "fp": 460.0,
+            "fn": 507.0,
+            "tp": 284.0,
+            "positive_rate": 0.16479166666666667,
+            "predicted_positive_rate": 0.155,
+            "decision_threshold": 0.53
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.6259793417338511,
+              "pr_auc": 0.29714692713992796,
+              "precision": 0.27177177177177175,
+              "recall": 0.43825665859564167,
+              "f1": 0.33549582947173306,
+              "brier": 0.2225126642794592,
+              "tn": 1602.0,
+              "fp": 485.0,
+              "fn": 232.0,
+              "tp": 181.0,
+              "positive_rate": 0.1652,
+              "predicted_positive_rate": 0.2664,
+              "fold": 1.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.6820674985416104,
+              "pr_auc": 0.3413740779101295,
+              "precision": 0.35051546391752575,
+              "recall": 0.4228855721393035,
+              "f1": 0.3833145434047351,
+              "brier": 0.21100585262520935,
+              "tn": 1783.0,
+              "fp": 315.0,
+              "fn": 232.0,
+              "tp": 170.0,
+              "positive_rate": 0.1608,
+              "predicted_positive_rate": 0.194,
+              "fold": 2.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.6206538885140926,
+              "pr_auc": 0.2636911264571745,
+              "precision": 0.2422360248447205,
+              "recall": 0.4073107049608355,
+              "f1": 0.3037974683544304,
+              "brier": 0.2298617403957449,
+              "tn": 1629.0,
+              "fp": 488.0,
+              "fn": 227.0,
+              "tp": 156.0,
+              "positive_rate": 0.1532,
+              "predicted_positive_rate": 0.2576,
+              "fold": 3.0,
+              "model_name": "Logistic Regression"
+            }
+          ],
+          "decision_threshold": 0.53
+        },
+        "Random Forest": {
+          "cv_mean": {
+            "roc_auc": 0.635280093521358,
+            "pr_auc": 0.29985548444869686,
+            "precision": 0.4017742678653151,
+            "recall": 0.321270236942242,
+            "f1": 0.35529448151945986,
+            "brier": 0.18629067753073356
+          },
+          "holdout": {
+            "roc_auc": 0.6398476373797388,
+            "pr_auc": 0.304865628407386,
+            "precision": 0.34140969162995594,
+            "recall": 0.3919089759797724,
+            "f1": 0.36492054149499703,
+            "brier": 0.20474923589684532,
+            "tn": 3411.0,
+            "fp": 598.0,
+            "fn": 481.0,
+            "tp": 310.0,
+            "positive_rate": 0.16479166666666667,
+            "predicted_positive_rate": 0.18916666666666668,
+            "decision_threshold": 0.48000000000000004
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.6369651399009898,
+              "pr_auc": 0.310713281694958,
+              "precision": 0.44765342960288806,
+              "recall": 0.30024213075060535,
+              "f1": 0.35942028985507246,
+              "brier": 0.17495116785005038,
+              "tn": 1934.0,
+              "fp": 153.0,
+              "fn": 289.0,
+              "tp": 124.0,
+              "positive_rate": 0.1652,
+              "predicted_positive_rate": 0.1108,
+              "fold": 1.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.6612575824405144,
+              "pr_auc": 0.3326356819826726,
+              "precision": 0.44072948328267475,
+              "recall": 0.36069651741293535,
+              "f1": 0.3967168262653899,
+              "brier": 0.18723933936348544,
+              "tn": 1914.0,
+              "fp": 184.0,
+              "fn": 257.0,
+              "tp": 145.0,
+              "positive_rate": 0.1608,
+              "predicted_positive_rate": 0.1316,
+              "fold": 2.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.6076175582225698,
+              "pr_auc": 0.2562174896684599,
+              "precision": 0.31693989071038253,
+              "recall": 0.3028720626631854,
+              "f1": 0.3097463284379172,
+              "brier": 0.19668152537866482,
+              "tn": 1867.0,
+              "fp": 250.0,
+              "fn": 267.0,
+              "tp": 116.0,
+              "positive_rate": 0.1532,
+              "predicted_positive_rate": 0.1464,
+              "fold": 3.0,
+              "model_name": "Random Forest"
+            }
+          ],
+          "decision_threshold": 0.48000000000000004
+        },
+        "XGBoost": {
+          "cv_mean": {
+            "roc_auc": 0.633098435239666,
+            "pr_auc": 0.29853574435001307,
+            "precision": 0.4282184782184782,
+            "recall": 0.06311390488955997,
+            "f1": 0.10895204634335069,
+            "brier": 0.12549453228712082
+          },
+          "holdout": {
+            "roc_auc": 0.6301028122880283,
+            "pr_auc": 0.3003965028168957,
+            "precision": 0.38565629228687415,
+            "recall": 0.36030341340075855,
+            "f1": 0.37254901960784315,
+            "brier": 0.12761293351650238,
+            "tn": 3555.0,
+            "fp": 454.0,
+            "fn": 506.0,
+            "tp": 285.0,
+            "positive_rate": 0.16479166666666667,
+            "predicted_positive_rate": 0.15395833333333334,
+            "decision_threshold": 0.19
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.6131598701056118,
+              "pr_auc": 0.2943932820095805,
+              "precision": 0.3783783783783784,
+              "recall": 0.03389830508474576,
+              "f1": 0.06222222222222222,
+              "brier": 0.12976284325122833,
+              "tn": 2064.0,
+              "fp": 23.0,
+              "fn": 399.0,
+              "tp": 14.0,
+              "positive_rate": 0.1652,
+              "predicted_positive_rate": 0.0148,
+              "fold": 1.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.6681369131463749,
+              "pr_auc": 0.3376782982123323,
+              "precision": 0.5166666666666667,
+              "recall": 0.07711442786069651,
+              "f1": 0.1341991341991342,
+              "brier": 0.12184731662273407,
+              "tn": 2069.0,
+              "fp": 29.0,
+              "fn": 371.0,
+              "tp": 31.0,
+              "positive_rate": 0.1608,
+              "predicted_positive_rate": 0.024,
+              "fold": 2.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.6179985224670114,
+              "pr_auc": 0.2635356528281264,
+              "precision": 0.38961038961038963,
+              "recall": 0.0783289817232376,
+              "f1": 0.13043478260869565,
+              "brier": 0.12487343698740005,
+              "tn": 2070.0,
+              "fp": 47.0,
+              "fn": 353.0,
+              "tp": 30.0,
+              "positive_rate": 0.1532,
+              "predicted_positive_rate": 0.0308,
+              "fold": 3.0,
+              "model_name": "XGBoost"
+            }
+          ],
+          "decision_threshold": 0.19
+        }
+      },
+      "fairness_monitoring": [
+        {
+          "attribute": "age_band",
+          "group": "0-17",
+          "n": 527,
+          "actual_rate": 0.14231499051233396,
+          "mean_prediction": 0.47953930598382427,
+          "brier": 0.2283480343100953
+        },
+        {
+          "attribute": "age_band",
+          "group": "18-34",
+          "n": 1102,
+          "actual_rate": 0.15335753176043557,
+          "mean_prediction": 0.476382583972033,
+          "brier": 0.22692325217732012
+        },
+        {
+          "attribute": "age_band",
+          "group": "35-49",
+          "n": 1010,
+          "actual_rate": 0.18811881188118812,
+          "mean_prediction": 0.4789650855359365,
+          "brier": 0.22918687490947348
+        },
+        {
+          "attribute": "age_band",
+          "group": "50-64",
+          "n": 1056,
+          "actual_rate": 0.17234848484848486,
+          "mean_prediction": 0.4815908366664172,
+          "brier": 0.22633577210932418
+        },
+        {
+          "attribute": "age_band",
+          "group": "65-74",
+          "n": 657,
+          "actual_rate": 0.1567732115677321,
+          "mean_prediction": 0.47163633293976237,
+          "brier": 0.2259360857971984
+        },
+        {
+          "attribute": "age_band",
+          "group": "75+",
+          "n": 448,
+          "actual_rate": 0.16071428571428573,
+          "mean_prediction": 0.47791571063087684,
+          "brier": 0.2190382491904563
+        },
+        {
+          "attribute": "rurality",
+          "group": "Rural",
+          "n": 741,
+          "actual_rate": 0.1524966261808367,
+          "mean_prediction": 0.47028441283360833,
+          "brier": 0.21974268009019424
+        },
+        {
+          "attribute": "rurality",
+          "group": "Suburban",
+          "n": 1378,
+          "actual_rate": 0.17198838896952104,
+          "mean_prediction": 0.4771456607661755,
+          "brier": 0.22360869572376704
+        },
+        {
+          "attribute": "rurality",
+          "group": "Urban",
+          "n": 2681,
+          "actual_rate": 0.16449086161879894,
+          "mean_prediction": 0.4804137711153493,
+          "brier": 0.22995344734753467
+        }
+      ]
+    },
+    "wait_time_risk": {
+      "selected_model": "XGBoost",
+      "training_rows": 15200,
+      "holdout_rows": 4800,
+      "positive_rate": 0.3562,
+      "train_end": "2026-01-01 13:10:00",
+      "test_start": "2026-01-01 13:20:00",
+      "candidate_metrics": {
+        "Logistic Regression": {
+          "cv_mean": {
+            "roc_auc": 0.6906803345695539,
+            "pr_auc": 0.5388358933240963,
+            "precision": 0.4725489585497624,
+            "recall": 0.6929823534263605,
+            "f1": 0.5617311356284612,
+            "brier": 0.22297382483597927
+          },
+          "holdout": {
+            "roc_auc": 0.6905604090078539,
+            "pr_auc": 0.5428038108886719,
+            "precision": 0.4594594594594595,
+            "recall": 0.7825086306098964,
+            "f1": 0.5789697743720732,
+            "brier": 0.2195795904634538,
+            "tn": 1462.0,
+            "fp": 1600.0,
+            "fn": 378.0,
+            "tp": 1360.0,
+            "positive_rate": 0.3620833333333333,
+            "predicted_positive_rate": 0.6166666666666667,
+            "decision_threshold": 0.44
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.6970054713804714,
+              "pr_auc": 0.5387713775481722,
+              "precision": 0.4722838137472284,
+              "recall": 0.7261363636363637,
+              "f1": 0.5723242274966412,
+              "brier": 0.22458664480477372,
+              "tn": 906.0,
+              "fp": 714.0,
+              "fn": 241.0,
+              "tp": 639.0,
+              "positive_rate": 0.352,
+              "predicted_positive_rate": 0.5412,
+              "fold": 1.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.6979071845448477,
+              "pr_auc": 0.5450078795267456,
+              "precision": 0.4812150279776179,
+              "recall": 0.675645342312009,
+              "f1": 0.5620915032679739,
+              "brier": 0.21923507678304605,
+              "tn": 960.0,
+              "fp": 649.0,
+              "fn": 289.0,
+              "tp": 602.0,
+              "positive_rate": 0.3564,
+              "predicted_positive_rate": 0.5004,
+              "fold": 2.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.6771283477833426,
+              "pr_auc": 0.5327284228973712,
+              "precision": 0.46414803392444104,
+              "recall": 0.6771653543307087,
+              "f1": 0.5507776761207686,
+              "brier": 0.22509975292011805,
+              "tn": 916.0,
+              "fp": 695.0,
+              "fn": 287.0,
+              "tp": 602.0,
+              "positive_rate": 0.3556,
+              "predicted_positive_rate": 0.5188,
+              "fold": 3.0,
+              "model_name": "Logistic Regression"
+            }
+          ],
+          "decision_threshold": 0.44
+        },
+        "Random Forest": {
+          "cv_mean": {
+            "roc_auc": 0.6968938514911244,
+            "pr_auc": 0.5461839206946789,
+            "precision": 0.5005163337007431,
+            "recall": 0.615470667176704,
+            "f1": 0.5518716550630594,
+            "brier": 0.21737127927331878
+          },
+          "holdout": {
+            "roc_auc": 0.7008558829078222,
+            "pr_auc": 0.5562325283663889,
+            "precision": 0.46979388770433544,
+            "recall": 0.760644418872267,
+            "f1": 0.5808435852372583,
+            "brier": 0.21599071083408575,
+            "tn": 1570.0,
+            "fp": 1492.0,
+            "fn": 416.0,
+            "tp": 1322.0,
+            "positive_rate": 0.3620833333333333,
+            "predicted_positive_rate": 0.58625,
+            "decision_threshold": 0.45
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.7106264029180696,
+              "pr_auc": 0.5597074226255752,
+              "precision": 0.5120593692022264,
+              "recall": 0.6272727272727273,
+              "f1": 0.5638406537282942,
+              "brier": 0.21457578837435448,
+              "tn": 1094.0,
+              "fp": 526.0,
+              "fn": 328.0,
+              "tp": 552.0,
+              "positive_rate": 0.352,
+              "predicted_positive_rate": 0.4312,
+              "fold": 1.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.7006896532481781,
+              "pr_auc": 0.5507997162383527,
+              "precision": 0.504297994269341,
+              "recall": 0.5925925925925926,
+              "f1": 0.544891640866873,
+              "brier": 0.2155453755252285,
+              "tn": 1090.0,
+              "fp": 519.0,
+              "fn": 363.0,
+              "tp": 528.0,
+              "positive_rate": 0.3564,
+              "predicted_positive_rate": 0.4188,
+              "fold": 2.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.6793654983071251,
+              "pr_auc": 0.5280446232201089,
+              "precision": 0.48519163763066203,
+              "recall": 0.6265466816647919,
+              "f1": 0.5468826705940109,
+              "brier": 0.22199267392037336,
+              "tn": 1020.0,
+              "fp": 591.0,
+              "fn": 332.0,
+              "tp": 557.0,
+              "positive_rate": 0.3556,
+              "predicted_positive_rate": 0.4592,
+              "fold": 3.0,
+              "model_name": "Random Forest"
+            }
+          ],
+          "decision_threshold": 0.45
+        },
+        "XGBoost": {
+          "cv_mean": {
+            "roc_auc": 0.7011325663408082,
+            "pr_auc": 0.5530422937138179,
+            "precision": 0.6050288689018353,
+            "recall": 0.3057082616356457,
+            "f1": 0.40598357703493343,
+            "brier": 0.2029022971789042
+          },
+          "holdout": {
+            "roc_auc": 0.7057387636712393,
+            "pr_auc": 0.5648355591828997,
+            "precision": 0.475,
+            "recall": 0.7433831990794016,
+            "f1": 0.5796321220278151,
+            "brier": 0.20294679701328278,
+            "tn": 1634.0,
+            "fp": 1428.0,
+            "fn": 446.0,
+            "tp": 1292.0,
+            "positive_rate": 0.3620833333333333,
+            "predicted_positive_rate": 0.5666666666666667,
+            "decision_threshold": 0.32
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.7172643097643097,
+              "pr_auc": 0.5723859476093711,
+              "precision": 0.625,
+              "recall": 0.32954545454545453,
+              "f1": 0.43154761904761907,
+              "brier": 0.19858068227767944,
+              "tn": 1446.0,
+              "fp": 174.0,
+              "fn": 590.0,
+              "tp": 290.0,
+              "positive_rate": 0.352,
+              "predicted_positive_rate": 0.1856,
+              "fold": 1.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.7040754900709323,
+              "pr_auc": 0.5522905437751742,
+              "precision": 0.6244541484716157,
+              "recall": 0.32098765432098764,
+              "f1": 0.4240177909562639,
+              "brier": 0.20242640376091003,
+              "tn": 1437.0,
+              "fp": 172.0,
+              "fn": 605.0,
+              "tp": 286.0,
+              "positive_rate": 0.3564,
+              "predicted_positive_rate": 0.1832,
+              "fold": 2.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.6820578991871826,
+              "pr_auc": 0.5344503897569082,
+              "precision": 0.5656324582338902,
+              "recall": 0.26659167604049494,
+              "f1": 0.3623853211009174,
+              "brier": 0.20769980549812317,
+              "tn": 1429.0,
+              "fp": 182.0,
+              "fn": 652.0,
+              "tp": 237.0,
+              "positive_rate": 0.3556,
+              "predicted_positive_rate": 0.1676,
+              "fold": 3.0,
+              "model_name": "XGBoost"
+            }
+          ],
+          "decision_threshold": 0.32
+        }
+      },
+      "fairness_monitoring": [
+        {
+          "attribute": "age_band",
+          "group": "0-17",
+          "n": 538,
+          "actual_rate": 0.3847583643122677,
+          "mean_prediction": 0.3429938554763794,
+          "brier": 0.21009184420108795
+        },
+        {
+          "attribute": "age_band",
+          "group": "18-34",
+          "n": 1066,
+          "actual_rate": 0.3611632270168856,
+          "mean_prediction": 0.35395100712776184,
+          "brier": 0.20020261406898499
+        },
+        {
+          "attribute": "age_band",
+          "group": "35-49",
+          "n": 1078,
+          "actual_rate": 0.3525046382189239,
+          "mean_prediction": 0.35580697655677795,
+          "brier": 0.202585369348526
+        },
+        {
+          "attribute": "age_band",
+          "group": "50-64",
+          "n": 1045,
+          "actual_rate": 0.3598086124401914,
+          "mean_prediction": 0.36642521619796753,
+          "brier": 0.20117595791816711
+        },
+        {
+          "attribute": "age_band",
+          "group": "65-74",
+          "n": 668,
+          "actual_rate": 0.3652694610778443,
+          "mean_prediction": 0.35627466440200806,
+          "brier": 0.2056518793106079
+        },
+        {
+          "attribute": "age_band",
+          "group": "75+",
+          "n": 405,
+          "actual_rate": 0.36049382716049383,
+          "mean_prediction": 0.3516544699668884,
+          "brier": 0.20174767076969147
+        },
+        {
+          "attribute": "rurality",
+          "group": "Rural",
+          "n": 766,
+          "actual_rate": 0.37597911227154046,
+          "mean_prediction": 0.35855767130851746,
+          "brier": 0.20450128614902496
+        },
+        {
+          "attribute": "rurality",
+          "group": "Suburban",
+          "n": 1311,
+          "actual_rate": 0.37757437070938216,
+          "mean_prediction": 0.35545870661735535,
+          "brier": 0.20832280814647675
+        },
+        {
+          "attribute": "rurality",
+          "group": "Urban",
+          "n": 2723,
+          "actual_rate": 0.35071612192434815,
+          "mean_prediction": 0.355514794588089,
+          "brier": 0.19992117583751678
+        }
+      ]
+    },
+    "capacity_pressure": {
+      "selected_model": "XGBoost",
+      "training_rows": 15200,
+      "holdout_rows": 4800,
+      "positive_rate": 0.09335,
+      "train_end": "2025-12-17 00:00:00",
+      "test_start": "2025-12-17 00:00:00",
+      "candidate_metrics": {
+        "Logistic Regression": {
+          "cv_mean": {
+            "roc_auc": 0.8647010942017834,
+            "pr_auc": 0.39663082323567317,
+            "precision": 0.2709237496826595,
+            "recall": 0.834077072738126,
+            "f1": 0.40856602267994924,
+            "brier": 0.15660833242096173
+          },
+          "holdout": {
+            "roc_auc": 0.8635803351316588,
+            "pr_auc": 0.4258809253784095,
+            "precision": 0.32111861137897785,
+            "recall": 0.6740890688259109,
+            "f1": 0.4350097975179621,
+            "brier": 0.1601202671606098,
+            "tn": 3602.0,
+            "fp": 704.0,
+            "fn": 161.0,
+            "tp": 333.0,
+            "positive_rate": 0.10291666666666667,
+            "predicted_positive_rate": 0.21604166666666666,
+            "decision_threshold": 0.64
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.8594555870959193,
+              "pr_auc": 0.3866668471818627,
+              "precision": 0.24200278164116829,
+              "recall": 0.8246445497630331,
+              "f1": 0.3741935483870968,
+              "brier": 0.1631270639593077,
+              "tn": 1744.0,
+              "fp": 545.0,
+              "fn": 37.0,
+              "tp": 174.0,
+              "positive_rate": 0.0844,
+              "predicted_positive_rate": 0.2876,
+              "fold": 1.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.8623854053587403,
+              "pr_auc": 0.3643841537085777,
+              "precision": 0.2826086956521739,
+              "recall": 0.8630705394190872,
+              "f1": 0.4257932446264074,
+              "brier": 0.1546745796793893,
+              "tn": 1731.0,
+              "fp": 528.0,
+              "fn": 33.0,
+              "tp": 208.0,
+              "positive_rate": 0.0964,
+              "predicted_positive_rate": 0.2944,
+              "fold": 2.0,
+              "model_name": "Logistic Regression"
+            },
+            {
+              "roc_auc": 0.8722622901506905,
+              "pr_auc": 0.43884146881657904,
+              "precision": 0.28815977175463625,
+              "recall": 0.8145161290322581,
+              "f1": 0.42571127502634354,
+              "brier": 0.15202335362418817,
+              "tn": 1753.0,
+              "fp": 499.0,
+              "fn": 46.0,
+              "tp": 202.0,
+              "positive_rate": 0.0992,
+              "predicted_positive_rate": 0.2804,
+              "fold": 3.0,
+              "model_name": "Logistic Regression"
+            }
+          ],
+          "decision_threshold": 0.64
+        },
+        "Random Forest": {
+          "cv_mean": {
+            "roc_auc": 0.8686863647522145,
+            "pr_auc": 0.3682425253690003,
+            "precision": 0.2896139729038552,
+            "recall": 0.7626572351481018,
+            "f1": 0.4196605637584548,
+            "brier": 0.12475823438640675
+          },
+          "holdout": {
+            "roc_auc": 0.8816259583182116,
+            "pr_auc": 0.4305487276178747,
+            "precision": 0.3499005964214712,
+            "recall": 0.7125506072874493,
+            "f1": 0.4693333333333333,
+            "brier": 0.13753452995874002,
+            "tn": 3652.0,
+            "fp": 654.0,
+            "fn": 142.0,
+            "tp": 352.0,
+            "positive_rate": 0.10291666666666667,
+            "predicted_positive_rate": 0.20958333333333334,
+            "decision_threshold": 0.63
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.8564865139064017,
+              "pr_auc": 0.3306243850602912,
+              "precision": 0.2681992337164751,
+              "recall": 0.6635071090047393,
+              "f1": 0.3819918144611187,
+              "brier": 0.11587101943077177,
+              "tn": 1907.0,
+              "fp": 382.0,
+              "fn": 71.0,
+              "tp": 140.0,
+              "positive_rate": 0.0844,
+              "predicted_positive_rate": 0.2088,
+              "fold": 1.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.8726495585201838,
+              "pr_auc": 0.3513876868429246,
+              "precision": 0.30652503793626706,
+              "recall": 0.8381742738589212,
+              "f1": 0.4488888888888889,
+              "brier": 0.12696346054299373,
+              "tn": 1802.0,
+              "fp": 457.0,
+              "fn": 39.0,
+              "tp": 202.0,
+              "positive_rate": 0.0964,
+              "predicted_positive_rate": 0.2636,
+              "fold": 2.0,
+              "model_name": "Random Forest"
+            },
+            {
+              "roc_auc": 0.8769230218300579,
+              "pr_auc": 0.42271550420378523,
+              "precision": 0.29411764705882354,
+              "recall": 0.7862903225806451,
+              "f1": 0.4281009879253567,
+              "brier": 0.13144022318545473,
+              "tn": 1784.0,
+              "fp": 468.0,
+              "fn": 53.0,
+              "tp": 195.0,
+              "positive_rate": 0.0992,
+              "predicted_positive_rate": 0.2652,
+              "fold": 3.0,
+              "model_name": "Random Forest"
+            }
+          ],
+          "decision_threshold": 0.63
+        },
+        "XGBoost": {
+          "cv_mean": {
+            "roc_auc": 0.8744082653769928,
+            "pr_auc": 0.4046714721057428,
+            "precision": 0.6680555555555555,
+            "recall": 0.041098276157011955,
+            "f1": 0.07696681096681096,
+            "brier": 0.06713878363370895
+          },
+          "holdout": {
+            "roc_auc": 0.8829521372117993,
+            "pr_auc": 0.4694662973075598,
+            "precision": 0.3530591775325978,
+            "recall": 0.7125506072874493,
+            "f1": 0.4721663313212609,
+            "brier": 0.0700467899441719,
+            "tn": 3661.0,
+            "fp": 645.0,
+            "fn": 142.0,
+            "tp": 352.0,
+            "positive_rate": 0.10291666666666667,
+            "predicted_positive_rate": 0.20770833333333333,
+            "decision_threshold": 0.19
+          },
+          "cv_folds": [
+            {
+              "roc_auc": 0.8625623474312549,
+              "pr_auc": 0.3436100116357311,
+              "precision": 0.4,
+              "recall": 0.037914691943127965,
+              "f1": 0.06926406926406926,
+              "brier": 0.06396722048521042,
+              "tn": 2277.0,
+              "fp": 12.0,
+              "fn": 203.0,
+              "tp": 8.0,
+              "positive_rate": 0.0844,
+              "predicted_positive_rate": 0.008,
+              "fold": 1.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.8770643566811592,
+              "pr_auc": 0.3807140575330363,
+              "precision": 0.6666666666666666,
+              "recall": 0.024896265560165973,
+              "f1": 0.048,
+              "brier": 0.06995289772748947,
+              "tn": 2256.0,
+              "fp": 3.0,
+              "fn": 235.0,
+              "tp": 6.0,
+              "positive_rate": 0.0964,
+              "predicted_positive_rate": 0.0036,
+              "fold": 2.0,
+              "model_name": "XGBoost"
+            },
+            {
+              "roc_auc": 0.8835980920185642,
+              "pr_auc": 0.48969034714846094,
+              "precision": 0.9375,
+              "recall": 0.06048387096774194,
+              "f1": 0.11363636363636363,
+              "brier": 0.06749623268842697,
+              "tn": 2251.0,
+              "fp": 1.0,
+              "fn": 233.0,
+              "tp": 15.0,
+              "positive_rate": 0.0992,
+              "predicted_positive_rate": 0.0064,
+              "fold": 3.0,
+              "model_name": "XGBoost"
+            }
+          ],
+          "decision_threshold": 0.19
+        }
+      },
+      "fairness_monitoring": []
+    }
+  }
+}
